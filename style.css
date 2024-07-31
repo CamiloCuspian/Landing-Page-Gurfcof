@@ -184,6 +184,7 @@ nav{
     position: fixed;
     width: 100%;
     background-color: #fff;
+    z-index: 1;
   
 }
 .wrap-logo:hover {
@@ -204,7 +205,7 @@ ul li{
 .hero-section{
     display: flex;
     justify-content: space-between;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     margin-bottom: 8%;
     margin-top: 3%;
@@ -420,14 +421,15 @@ b{
     body{
         box-sizing: border-box;
     }
-    .container, .container-2 {
-        margin-left: 10%;
-        margin-right: 10%;
+    .container {
+        margin-left: 15%;
+        margin-right: 26%;
     }
-    .container,.container-2{
-        margin-right: 60%;
+    .container-2{
+        margin-left: 28%;
+        margin-right: 26%;
     }
-
+    
     nav ul li {
         padding: 0 10px;
         width: 15%;
@@ -477,6 +479,8 @@ b{
     }
 
     .box {
+        margin-left: 2%;
+        margin-right: 2%;
         flex-direction: column;
         padding: 1rem;
     }
@@ -487,7 +491,7 @@ b{
     }
 
     .box p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin: 0.5rem 0;
     }
     .box img {
@@ -509,6 +513,12 @@ b{
     .wrap-blog {
         margin: 5% 1%;
     }
+    .wrap-blog p{
+        font-size: 0.8rem;
+    }
+    .wrap-blog h3{
+        font-size: 0.9rem;
+    }
 
     .socialContainer {
         width: 40px;
@@ -522,6 +532,9 @@ b{
     .footer-creds {
         margin-bottom: 5%;
     }
+}
+p{
+    font-size: 0.8rem;
 }
   
 
