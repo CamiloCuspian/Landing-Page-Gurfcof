@@ -450,6 +450,7 @@ b{
     }
     .wrap-hero-section {
         box-sizing: border-box;
+        background: transparent;
     }
 
    
@@ -472,6 +473,7 @@ b{
         height: 400%;
         margin-left: 60%;
         margin-top: 20%;
+        
     }
     .wrap-hero-section small {
         font-size: 0rem;
